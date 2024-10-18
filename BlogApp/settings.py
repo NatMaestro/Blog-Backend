@@ -29,6 +29,7 @@ DEBUG = os.getenv('DEBUG', True)
 ALLOWED_HOSTS = ['https://blog-backend-91ld.onrender.com','blog-backend-91ld.onrender.com']
 
 CORS_ALLOWED_ORIGINS = [
+    "https://my-vueblog.netlify.app/",
     "http://localhost:5173", # Vue.js dev server
     "http://localhost:8080", 
     "https://your-production-url.com"  # Your production Vue.js app
