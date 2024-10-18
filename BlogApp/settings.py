@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-2zllm#olt-16ftg3ydfrclz+u(zy_7w+pjg-l+lg7x55c7zn0p
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.getenv('DEBUG', True)
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://blog-backend-91ld.onrender.com']
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173", # Vue.js dev server
